@@ -1,3 +1,32 @@
 body {
-    background: #eee;
+  background: #eee;
+}
+p {
+  font-size: 12px;
+  margin: 10px 0px 0;
+}
+.grid {
+  display: flex;
+  width: 100%;
+}
+.grid-cell-a {
+  background-color: aqua;
+  width: 25%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 2px 2px;
+}
+.grid-cell-b {
+  background-color: orange;
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 2px 2px;
+}
+.grid-cell-c {
+  background-color: pink;
+  width: 16.6%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 2px 2px;
 }
